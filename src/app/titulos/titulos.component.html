@@ -1,0 +1,18 @@
+<p>titulos works!</p>
+<h1>hola soy h1</h1>
+<h1>hola soy {{nombre}} {{apellido}} </h1>
+<h1>hola y yo soy el alumno {{alumno.nombre}} {{alumno.apellido}}</h1>
+<!--<img [src]="imgn">-->
+<br>
+<input type="text" [(ngModel)]="inputNuevo">
+<p>{{inputNuevo}}</p>
+<label for="">
+    Correo:
+    <input type="text" [(ngModel)]="correo">
+</label>
+<label for="">
+    Password: <input type="password" [(ngModel)]="password">
+</label>
+<button (click)="ingresar()">Iniciar</button>
+<br>
+<button (dblclick)="llamarAlert()">Iniciar</button>
